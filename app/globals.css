@@ -384,6 +384,46 @@ footer {
   .product-links {
     grid-template-columns: 1fr;
   }
+
+/* Botões dos produtos VH Tecnologia */
+
+.product-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 30px 0;
 }
+
+.product-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 25px;
+  background: linear-gradient(135deg, #09234a, #075baf);
+  color: #ffffff;
+  border: 1px solid #38bdf8;
+  border-radius: 16px;
+  text-decoration: none;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-link span {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.product-link strong {
+  font-size: 15px;
+  color: #7dd3fc;
+}
+
+@media (max-width: 768px) {
+  .product-links {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
 
 
