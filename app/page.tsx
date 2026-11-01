@@ -40,7 +40,8 @@ export default function Home() {
 
       <main>
         <section className="hero" id="inicio">
-          <img
+
+<img
   src="/file_000000004c8c820ebf85647e046d70ec.png"
   alt="VH Tecnologia - LavaRápido Smart e LaveAccess"
   style={{
@@ -49,6 +50,7 @@ export default function Home() {
     display: "block"
   }}
 />
+
           <div className="wrap hero-inner">
             <span className="eyebrow">
               AUTOMAÇÃO • SOFTWARE • INOVAÇÃO
