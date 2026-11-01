@@ -40,6 +40,15 @@ export default function Home() {
 
       <main>
         <section className="hero" id="inicio">
+          <img
+  src="/banner-vh.png"
+  alt="VH Tecnologia - Automação e soluções inteligentes"
+  style={{
+    width: "100%",
+    height: "auto",
+    display: "block"
+  }}
+/>
           <div className="wrap hero-inner">
             <span className="eyebrow">
               AUTOMAÇÃO • SOFTWARE • INOVAÇÃO
