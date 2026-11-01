@@ -100,6 +100,18 @@ export default function Home() {
           </div>
         </section>
 
+<section className="product-links wrap">
+  <a href="#solucoes" className="product-link">
+    <span>💧 LavaRápido Smart</span>
+    <strong>Conhecer solução →</strong>
+  </a>
+
+  <a href="#laveaccess" className="product-link">
+    <span>🔐 LaveAccess</span>
+    <strong>Conhecer solução →</strong>
+  </a>
+</section>
+
         <section
           className="section wrap"
           id="solucoes"
@@ -149,7 +161,7 @@ export default function Home() {
               </div>
             </article>
 
-            <article className="card">
+            <article className="card" id="laveaccess">
               <div className="card-visual access">
                 <QrCode size={72} />
                 <span>ACESSO INTELIGENTE</span>
