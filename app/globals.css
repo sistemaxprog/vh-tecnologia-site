@@ -312,100 +312,33 @@ footer {
     flex-direction: column;
     text-align: center;
   }
-}
-.product-links {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding-top: 35px;
-}
-
-.product-link {
-  background: #0c2344;
-  color: white;
-  padding: 25px;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  transition: transform 0.2s;
-}
-
-.product-link:hover {
-  transform: translateY(-4px);
-}
-
-.product-link span {
-  font-size: 22px;
-  font-weight: 800;
-}
-
-.product-link strong {
-  color: #38bdf8;
-}
-
-@media (max-width: 768px) {
-  .product-links {
-    grid-template-columns: 1fr;
-  }
+  
+/* CARTOES DOS PRODUTOS VH TECNOLOGIA */
 
 .product-links {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
-  padding-top: 35px;
-}
-
-.product-link {
-  background: #0c2344;
-  color: white;
-  padding: 25px;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  transition: transform 0.2s;
-}
-
-.product-link:hover {
-  transform: translateY(-4px);
-}
-
-.product-link span {
-  font-size: 22px;
-  font-weight: 800;
-}
-
-.product-link strong {
-  color: #38bdf8;
-}
-
-@media (max-width: 768px) {
-  .product-links {
-    grid-template-columns: 1fr;
-  }
-
-/* Botões dos produtos VH Tecnologia */
-
-.product-links {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding: 30px 0;
+  padding: 35px 0;
 }
 
 .product-link {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 15px;
-  padding: 25px;
+  gap: 16px;
+  padding: 26px;
   background: linear-gradient(135deg, #09234a, #075baf);
   color: #ffffff;
   border: 1px solid #38bdf8;
   border-radius: 16px;
   text-decoration: none;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.product-link:hover {
+  transform: translateY(-4px);
 }
 
 .product-link span {
@@ -423,7 +356,8 @@ footer {
     grid-template-columns: 1fr;
     gap: 15px;
   }
+
+  .product-link {
+    padding: 22px;
+  }
 }
-
-
-
