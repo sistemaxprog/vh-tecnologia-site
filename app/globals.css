@@ -24,6 +24,8 @@ a {
   margin: auto;
 }
 
+/* CABECALHO */
+
 .header {
   min-height: 85px;
   display: flex;
@@ -57,6 +59,8 @@ a {
   color: #0284c7;
   font-weight: 700;
 }
+
+/* BANNER PRINCIPAL */
 
 .hero {
   background: linear-gradient(135deg, #08162d, #103b70);
@@ -137,6 +141,46 @@ a {
   width: 21px;
   color: #38bdf8;
 }
+
+/* CARTOES DE DESTAQUE */
+
+.product-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: 35px 0;
+}
+
+.product-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 26px;
+  background: linear-gradient(135deg, #09234a, #075baf);
+  color: #ffffff;
+  border: 1px solid #38bdf8;
+  border-radius: 16px;
+  text-decoration: none;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.product-link:hover {
+  transform: translateY(-4px);
+}
+
+.product-link span {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.product-link strong {
+  font-size: 15px;
+  color: #7dd3fc;
+}
+
+/* SECAO DE PRODUTOS */
 
 .section {
   padding: 95px 0;
@@ -227,6 +271,8 @@ a {
   margin-top: 15px;
 }
 
+/* SOBRE A EMPRESA */
+
 .about {
   background: #0b1930;
   color: white;
@@ -246,6 +292,8 @@ a {
   line-height: 1.8;
 }
 
+/* CONTATO */
+
 .contact {
   text-align: center;
 }
@@ -261,6 +309,8 @@ a {
   margin-bottom: 30px;
 }
 
+/* RODAPE */
+
 footer {
   background: #071326;
   color: #cbd5e1;
@@ -272,6 +322,8 @@ footer {
   justify-content: space-between;
   gap: 20px;
 }
+
+/* RESPONSIVIDADE PARA CELULAR */
 
 @media (max-width: 768px) {
   .header {
@@ -312,46 +364,7 @@ footer {
     flex-direction: column;
     text-align: center;
   }
-  
-/* CARTOES DOS PRODUTOS VH TECNOLOGIA */
 
-.product-links {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-  padding: 35px 0;
-}
-
-.product-link {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 26px;
-  background: linear-gradient(135deg, #09234a, #075baf);
-  color: #ffffff;
-  border: 1px solid #38bdf8;
-  border-radius: 16px;
-  text-decoration: none;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-  transition: transform 0.2s ease;
-}
-
-.product-link:hover {
-  transform: translateY(-4px);
-}
-
-.product-link span {
-  font-size: 22px;
-  font-weight: 800;
-}
-
-.product-link strong {
-  font-size: 15px;
-  color: #7dd3fc;
-}
-
-@media (max-width: 768px) {
   .product-links {
     grid-template-columns: 1fr;
     gap: 15px;
